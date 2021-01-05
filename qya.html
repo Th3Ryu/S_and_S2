@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pagina oficial de Shadow y Sun con wiki e historias">
+        <meta name="keywords" content="S&S, Shadow, Sun, videojuegos, comics">
+        <title>S&S: Q&A</title>
+        <link rel="stylesheet" type="text/css" href="./styles/estilo.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/3dd7e635ac.js" crossorigin="anonymous"></script>
+        <script src="./app.js" defer></script>
+    </head>
+    <body class="qyaFondo">
+        <nav class="menu">
+            <label class="logo">S&S</label>
+            <ul class="menu1">
+                <li><a href=index.html>Inicio</a></li>
+                <li><a href=historia.html>Historia</a></li>
+                <li><a href=personajes.html>Personajes</a></li>
+                <li><a href=libros.html>Libros y Cómics</a></li>
+                <li><a href=juegos.html>Videojuegos</a></li>
+                <li><a href=qya.html>Q&R Personajes!</a></li>
+                <li><a href=galeria.html>Galeria</a></li>
+            </ul>
+            <span class="btn_menu">
+                <i class="fas fa-bars"></i>
+            </span>
+        </nav> 
+        <p class="importante">
+            Para poder contactar con tu personaje favorito y hacerle una pregunta, porfavor complete este formulario.
+        </p>
+        <div class="formulario text-center">
+            <h1>Hacer una pregunta</h1>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Abrir modal</button>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Formulario</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Personaje(s) a preguntar:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Pregunta:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="styles/imagenes/waiting.gif">
+        </div>
+        <p>¡Te esperamos!</p>
+        <hr>
+        <h2 align="center">
+            <span>RESPUESTAS</span>
+        </h2>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    </body>
+    <footer class="footer">
+        <p>Contactos: shadowsun.project@gmail.com - +1 (989) 303-7756 ©</p>
+    </footer>
+</html>
